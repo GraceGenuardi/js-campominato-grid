@@ -8,6 +8,9 @@
     text-decoration: none;
  }
 
+ body {
+    background-color: rgba(111, 228, 111, 0.295);
+ }
 /*CONTAINER RULES***/
 .container {
 	max-width: 1000px;
@@ -30,7 +33,7 @@
 	font-size: 50px;
     text-align: center;
     margin: 20px;
-    color: rgb(58, 255, 58);
+    color: rgb(32, 167, 32);
     text-transform: uppercase;
 }
 
@@ -61,15 +64,25 @@ button h2 {
 .griglia {
 	display: flex;
 	flex-wrap: wrap;
+    margin: 20px;
 }
 
 .griglia > * {
 	aspect-ratio: 1;
-	border: 2px solid crimson;
+    border: 1px solid rgb(40, 128, 40);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 24px;
+    background-color: rgba(85, 209, 85, 0.548);
+}
+
+
+
+/**BONUS RULES***/
+
+.cella-selezionata{
+    background-color: rgba(81, 253, 81, 0.664);
 }
 
 
