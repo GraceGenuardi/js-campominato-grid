@@ -15,6 +15,10 @@ const playButton = document.querySelector('#play-button')
 
 //2.L’utente clicca su un pulsante PLAY  per generare la una griglia quadrata 10 * 10 
 playButton.addEventListener('click', function () {
+
+	 // Azzera la griglia
+	 grigliaElement.innerHTML = '';
+	 
 	for (let i = 0; i < numeroCelle; i++) {
 		let num = i + 1
 		console.log(num)
@@ -42,6 +46,9 @@ playButton.addEventListener('click', function () {
     cella.classList.add("cella-selezionata")
 })
    
+
+
+
 	}
 })
 
