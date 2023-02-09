@@ -7,6 +7,17 @@
     color: currentColor;
     text-decoration: none;
  }
+
+/*CONTAINER RULES***/
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .container h1 {
 	font-size: 50px;
     text-align: center;
@@ -23,12 +34,30 @@
     text-transform: uppercase;
 }
 
-.container {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 50px;
+/***BUTTON RULES***/
+button {
+    width: 400px;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(120, 209, 120, 0.815);
+    border: 2px solid rgb(25, 95, 25);
+    border-radius: 20px;
+    
 }
 
+button h2 {
+	font-size: 20px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    
+}
+
+
+
+
+/**GRIGLIA RULES***/
 .griglia {
 	display: flex;
 	flex-wrap: wrap;
@@ -42,3 +71,5 @@
 	align-items: center;
 	font-size: 24px;
 }
+
+
