@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ a {
+    color: currentColor;
+    text-decoration: none;
+ }
+.container h1 {
+	font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(25, 95, 25);
+    text-transform: uppercase;
+}
+
+.container h1:hover {
+	font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(58, 255, 58);
+    text-transform: uppercase;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.griglia {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.griglia > * {
+	aspect-ratio: 1;
+	border: 2px solid crimson;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
