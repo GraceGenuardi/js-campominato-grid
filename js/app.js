@@ -3,7 +3,7 @@ console.log('Prato fiorito')
 //PRIMA PARTE: CREAZIONE GRIGLIA
 
 //1. Dichiariamo le costanti 
-const latoGriglia = 8
+const latoGriglia = 10
 const numeroCelle = latoGriglia * latoGriglia
 
 console.log(latoGriglia, numeroCelle)
@@ -14,7 +14,7 @@ console.log(grigliaElement)
 const playButton = document.querySelector('#play-button')
 
 //2.L’utente clicca su un pulsante PLAY  per generare la una griglia quadrata 10 * 10 
-playButton.addEventListener('click', function () {
+playButton.addEventListener('click', function () { //NB Correggi dando nome alla funzione
 
 	 // Azzera la griglia
 	 grigliaElement.innerHTML = '';
@@ -43,7 +43,7 @@ playButton.addEventListener('click', function () {
  
  cella.addEventListener('click', function () {
     console.log(i + 1)
-    cella.classList.add("cella-selezionata")
+    cella.classList.toggle("cella-selezionata")
 })
    
 
